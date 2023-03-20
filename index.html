@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reseau Social</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release-pro/v4.0.0/css/solid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="log">DesteSocial</h2> 
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="search for creators, inspirations, and projects" >
+            </div>
+            <div class="create">
+                <label for="create-post" class="btn btn-primary">Creacte</label>
+                <div class="profile-photo">
+                    <img src="./images/profile-1.jpg" alt="photo">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- -------------------------------------------main--------------------------------------- -->
+  
+   <main>
+    <div class="container">
+<!-- --------------------------------------Left----------------------------------------------------- -->
+        
+<div class="left">
+        <a class="profile">
+            <div class="profile-photo">
+            <img src="./images/profile-1.jpg">
+        </div>
+        <div class="handle">
+            <h4>Ange Merveille</h4>
+            <p class="text-muted">
+                @anMe
+            </p>
+        </div>
+        </a>
+<!-- ---------------------------------------------Sidebar---------------------------------------------- -->
+  <div class="sidebar">
+    <a class="menu-item active">
+        <span><i class="fa-solid fa-house"></i></span><h3>Home</h3>
+        
+    </a>
+    <a  class="menu-item">
+        <i class="fa-solid fa-compass"></i></span><h3>Explore</h3>
+    </a>
+    <a class="menu-item" id="notifications">
+        <span><i class="fa-sharp fa-regular fa-bell"><small class="notification-count">9</small> </i></span><h3>Notifications</h3>
+<!-- -------------------------------------------------NOTIFICATION POPUP-------------------------------------- -->
+        <div class="notifications-popup">
+            <div>
+                <div class="profile-photo">
+                    <img src="./images/profile-2.jpg">
+                </div>
+                <div class="notification-body">
+                    <b>Keke Banjamain</b> a accepter votre demande d'ami
+                    <small class="text-muted">il y'a 20 minutes</small>
+                </div>
+            </div>
+            <div>
+                <div class="profile-photo">
+                    <img src="./images/profile-3.jpg">
+                </div>
+                <div class="notification-body">
+                    <b>mireille logkemg</b> a commenter votre publication
+                    <small class="text-muted">il y'a 3 Heures</small>
+                </div>
+            </div>
+            <div>
+                <div class="profile-photo">
+                    <img src="./images/profile-4.jpg">
+                </div>
+                <div class="notification-body">
+                    <b>Ronisse Nadale</b> <b>and 283 autres</b> ont liked votre publications
+                    <small class="text-muted">il y'a 4 minutes</small>
+                </div>
+            </div>
+            <div>
+                <div class="profile-photo">
+                    <img src="./images/profile-5.jpg">
+                </div>
+                <div class="notification-body">
+                    <b>Dunel Kemetia</b> vous a identifier dans une publication
+                    <small class="text-muted">il y'a 2 Heures</small>
+                </div>
+            </div>
+            <div>
+                <div class="profile-photo">
+                    <img src="./images/profile-6.jpg">
+                </div>
+                <div class="notification-body">
+                    <b>Alex franck</b> vous a identifier ainsi que <b> 187 autres personnes</b>
+                    <small class="text-muted">il y'a 6 Heures</small>
+                </div>
+            </div>
+            <div>
+                <div class="profile-photo">
+                    <img src="./images/profile-6.jpg">
+                </div>
+                <div class="notification-body">
+                    <b>Atiogo Joseph</b> a commenter votre publication
+                    <small class="text-muted">il y'a 2 semaines</small>
+                </div>
+            </div>
+        </div>
+     </a>
+     <a class="menu-item" id="messages-notifications">
+        <span><i class="fa-regular fa-message"> <small class="notification-count">6</small> </i></span><h3>Messages</h3>
+     </a>
+     <a class="menu-item">
+        <span><i class="fa-regular fa-bookmark"></i></span><h3>Bookmarks</h3>
+     </a>
+     <a class="menu-item">
+        <span><i class="fa-solid fa-chart-line"></i></span><h3>Analytics</h3>
+     </a>
+     <a class="menu-item">
+        <span><i class="fa-brands fa-ethereum"></i></span><h3>Theme</h3>
+     </a>
+     <a class="menu-item active" >
+        <span><i class="fa-solid fa-gear"></i></span><h3>Setting</h3>
+     </a>
+   </div>
+   <!-- ----------------------------------END OF SIDEBAR----------------------------------- -->
+   <label for="create-post"  class="btn btn-primary" >Creer Post</label>
+</div>  
+
+<!-- ---------------------------------MIDDLE------------------------------------- -->
+
+<div class="middle">
+      <!-- -------------------------------STORIES------------------------------------------ -->
+      <div class="stories">
+        <div class="story">
+            <div class="profile-photo">
+                <img src="./images/profile-8.jpg">
+            </div>
+            <p class="name">Votre Story</p>
+        </div>
+        <div class="story">
+            <div class="profile-photo">
+                <img src="./images/profile-9.jpg">
+            </div>
+            <p class="name">Tatiana Dzeusse</p>
+        </div>
+        <div class="story">
+            <div class="profile-photo">
+                <img src="./images/profile-10.jpg">
+            </div>
+            <p class="name">Ryan Tamno</p>
+        </div>
+        <div class="story">
+            <div class="profile-photo">
+                <img src="./images/profile-11.jpg">
+            </div>
+            <p class="name">Debora mayo </p>
+        </div>
+        <div class="story">
+            <div class="profile-photo">
+                <img src="./images/profile-12.jpg">
+            </div>
+            <p class="name">Ivan Senkem</p>
+        </div>
+        <div class="story">
+            <div class="profile-photo">
+                <img src="./images/profile-13.jpg">
+            </div>
+            <p class="name">Marie Blanche</p>
+        </div>
+      </div>
+      <!-- -------------------------------------END OF STORIES---------------------------------------- -->
+         <form class="create-post">
+            <div class="profile-photo">
+                <img src="./images/profile-1.jpg">
+            </div>
+            <input type="text" placeholder="What's on your mind, Ange?" id="create-post">
+            <input type="submit" value="Post" class="btn btn-primary">
+         </form>
+
+         <!-- --------------------------------------------FEEDS------------------------------------------ -->
+         <div class="feeds">
+            <!-- -------------------------------------------------------FEED1--------------------------------- -->
+            <div class="feed">
+                <div class="head">
+                    <div class="user">
+                        <div class="profile-photo">
+                            <img src="./images/profile-12.jpg">
+                        </div>
+                        <div class="ingo">
+                            <h3>Tatiana Dzeusse</h3>
+                            <small>Douala, il y'a 15 minutes</small>
+                        </div>
+                    </div>
+                    <span class="edit">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </span>
+                </div>
+                <div class="photo">
+                    <img src="./images/feed-1.jpg" >
+                </div>
+                <div class="action-buttons">
+                    <div class="imteraction-buttons">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-regular fa-comment"></i></span>
+                        <span><i class="fa-solid fa-share-nodes"></i></span>
+                    </div>
+                    <div class="bookmark">
+                        <span><i class="fa-regular fa-bookmark"></i></span>
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span> <img src="./images/profile-10.jpg"> </span>
+                    <span> <img src="./images/profile-14.jpg"> </span>
+                    <span> <img src="./images/profile-15.jpg"> </span>
+                    <p>likes par <b>Miriam Flore</b></p> et <b>223 autres personnes</b>
+                </div>
+                <div class="caption">
+                    <p><b>Mireille Rose</b> est en fit avec plus <span class="harsh-tag">#lifestyle</span></p>
+                </div>
+                <div class="comments text-muted">Vues et commenter par 277 personnes</div>
+            </div>
+            <!-- ---------------------------------------------FEED2------------------------------------------ -->
+            <div class="feed">
+                <div class="head">
+                    <div class="user">
+                        <div class="profile-photo">
+                            <img src="./images/profile-13.jpg">
+                        </div>
+                        <div class="ingo">
+                            <h3>Benjamin Dani</h3>
+                            <small>Yaounde, il y'a 2 Heures</small>
+                        </div>
+                    </div>
+                    <span class="edit">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </span>
+                </div>
+                <div class="photo">
+                    <img src="./images/feed-2.jpg" >
+                </div>
+                <div class="action-buttons">
+                    <div class="imteraction-buttons">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-regular fa-comment"></i></span>
+                        <span><i class="fa-solid fa-share-nodes"></i></span>
+                    </div>
+                    <div class="bookmark">
+                        <span><i class="fa-regular fa-bookmark"></i></span>
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span> <img src="./images/profile-10.jpg"> </span>
+                    <span> <img src="./images/profile-14.jpg"> </span>
+                    <span> <img src="./images/profile-15.jpg"> </span>
+                    <p>likes par <b>Miriam Flore</b></p> et <b>15.456 autres personnes</b>
+                </div>
+                <div class="caption">
+                    <p><b>Mireille Rose</b> est en fit avec plus <span class="harsh-tag">#lifestyle</span></p>
+                </div>
+                <div class="comments text-muted">Vues et commenter par 403 personnes</div>
+            </div>
+            <!-- ---------------------------------------------FEED2------------------------------------------ -->
+            <div class="feed">
+                <div class="head">
+                    <div class="user">
+                        <div class="profile-photo">
+                            <img src="./images/profile-14.jpg">
+                        </div>
+                        <div class="ingo">
+                            <h3>Yannick Noir</h3>
+                            <small>Bafousam il y'a 34 minutes</small>
+                        </div>
+                    </div>
+                    <span class="edit">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </span>
+                </div>
+                <div class="photo">
+                    <img src="./images/feed-3.jpg" >
+                </div>
+                <div class="action-buttons">
+                    <div class="imteraction-buttons">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-regular fa-comment"></i></span>
+                        <span><i class="fa-solid fa-share-nodes"></i></span>
+                    </div>
+                    <div class="bookmark">
+                        <span><i class="fa-regular fa-bookmark"></i></span>
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span> <img src="./images/profile-10.jpg"> </span>
+                    <span> <img src="./images/profile-14.jpg"> </span>
+                    <span> <img src="./images/profile-15.jpg"> </span>
+                    <p>likes par <b>Miriam Flore</b></p> et <b>300 autres personnes</b>
+                </div>
+                <div class="caption">
+                    <p><b>Mireille Rose</b> est en fit avec plus <span class="harsh-tag">#lifestyle</span></p>
+                </div>
+                <div class="comments text-muted">Vues et commenter par 1320 personnes</div>
+            </div>
+            <!-- ---------------------------------------------FEED2------------------------------------------ -->
+            <div class="feed">
+                <div class="head">
+                    <div class="user">
+                        <div class="profile-photo">
+                            <img src="./images/profile-15.jpg">
+                        </div>
+                        <div class="ingo">
+                            <h3>Tatiana Dzeusse</h3>
+                            <small>Douala, il y'a 15 minutes</small>
+                        </div>
+                    </div>
+                    <span class="edit">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </span>
+                </div>
+                <div class="photo">
+                    <img src="./images/feed-4.jpg" >
+                </div>
+                <div class="action-buttons">
+                    <div class="imteraction-buttons">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-regular fa-comment"></i></span>
+                        <span><i class="fa-solid fa-share-nodes"></i></span>
+                    </div>
+                    <div class="bookmark">
+                        <span><i class="fa-regular fa-bookmark"></i></span>
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span> <img src="./images/profile-10.jpg"> </span>
+                    <span> <img src="./images/profile-14.jpg"> </span>
+                    <span> <img src="./images/profile-15.jpg"> </span>
+                    <p>likes par <b>Miriam Flore</b></p> et <b>416 autres personnes</b>
+                </div>
+                <div class="caption">
+                    <p><b>Mireille Rose</b> est en fit avec plus <span class="harsh-tag">#lifestyle</span></p>
+                </div>
+                <div class="comments text-muted">Vues et commenter par 16.204 personnes</div>
+            </div>
+            <!-- ---------------------------------------------FEED2------------------------------------------ -->
+            <div class="feed">
+                <div class="head">
+                    <div class="user">
+                        <div class="profile-photo">
+                            <img src="./images/profile-12.jpg">
+                        </div>
+                        <div class="ingo">
+                            <h3>Tatiana Dzeusse</h3>
+                            <small>Douala, il y'a 15 minutes</small>
+                        </div>
+                    </div>
+                    <span class="edit">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </span>
+                </div>
+                <div class="photo">
+                    <img src="./images/feed-5.jpg" >
+                </div>
+                <div class="action-buttons">
+                    <div class="imteraction-buttons">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-regular fa-comment"></i></span>
+                        <span><i class="fa-solid fa-share-nodes"></i></span>
+                    </div>
+                    <div class="bookmark">
+                        <span><i class="fa-regular fa-bookmark"></i></span>
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span> <img src="./images/profile-10.jpg"> </span>
+                    <span> <img src="./images/profile-14.jpg"> </span>
+                    <span> <img src="./images/profile-15.jpg"> </span>
+                    <p>likes par <b>Miriam Flore</b></p> et <b>223 autres personnes</b>
+                </div>
+                <div class="caption">
+                    <p><b>Mireille Rose</b> est en fit avec plus <span class="harsh-tag">#lifestyle</span></p>
+                </div>
+                <div class="comments text-muted">Vues et commenter par 277 personnes</div>
+            </div>
+            <!-- ---------------------------------------------FEED2------------------------------------------ -->
+            <div class="feed">
+                <div class="head">
+                    <div class="user">
+                        <div class="profile-photo">
+                            <img src="./images/profile-12.jpg">
+                        </div>
+                        <div class="ingo">
+                            <h3>Tatiana Dzeusse</h3>
+                            <small>Douala, il y'a 15 minutes</small>
+                        </div>
+                    </div>
+                    <span class="edit">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </span>
+                </div>
+                <div class="photo">
+                    <img src="./images/feed-6.jpg" >
+                </div>
+                <div class="action-buttons">
+                    <div class="imteraction-buttons">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-regular fa-comment"></i></span>
+                        <span><i class="fa-solid fa-share-nodes"></i></span>
+                    </div>
+                    <div class="bookmark">
+                        <span><i class="fa-regular fa-bookmark"></i></span>
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span> <img src="./images/profile-10.jpg"> </span>
+                    <span> <img src="./images/profile-14.jpg"> </span>
+                    <span> <img src="./images/profile-15.jpg"> </span>
+                    <p>likes par <b>Miriam Flore</b></p> et <b>223 autres personnes</b>
+                </div>
+                <div class="caption">
+                    <p><b>Mireille Rose</b> est en fit avec plus <span class="harsh-tag">#lifestyle</span></p>
+                </div>
+                <div class="comments text-muted">Vues et commenter par 277 personnes</div>
+            </div>
+            <!-- ---------------------------------------------FEED2------------------------------------------ -->
+            <div class="feed">
+                <div class="head">
+                    <div class="user">
+                        <div class="profile-photo">
+                            <img src="./images/profile-16.jpg">
+                        </div>
+                        <div class="ingo">
+                            <h3>Emanuella belva</h3>
+                            <small>Douala, il y'a 15 minutes</small>
+                        </div>
+                    </div>
+                    <span class="edit">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </span>
+                </div>
+                <div class="photo">
+                    <img src="./images/feed-7.jpg" >
+                </div>
+                <div class="action-buttons">
+                    <div class="imteraction-buttons">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-regular fa-comment"></i></span>
+                        <span><i class="fa-solid fa-share-nodes"></i></span>
+                    </div>
+                    <div class="bookmark">
+                        <span><i class="fa-regular fa-bookmark"></i></span>
+                    </div>
+                </div>
+                <div class="liked-by">
+                    <span> <img src="./images/profile-10.jpg"> </span>
+                    <span> <img src="./images/profile-14.jpg"> </span>
+                    <span> <img src="./images/profile-15.jpg"> </span>
+                    <p>likes par <b>Audrey remy</b></p> et <b>207 autres personnes</b>
+                </div>
+                <div class="caption">
+                    <p><b>Mireille Rose</b> est en fit avec plus <span class="harsh-tag">#lifestyle</span></p>
+                </div>
+                <div class="comments text-muted">Vues et commenter par 301 personnes</div>
+            </div>
+             
+            <!-- -----------------------------------------END OF FEED------------------------------------------ -->
+        </div>
+
+        </div>
+<!-- ------------------------------------------------RIGHT------------------------------------------- -->
+ <di class="right">
+          <div class="messages">
+            <div class="heading">
+                <h4>Messages</h4><i class="fa-regular fa-pen-to-square"></i>
+            </div>
+        <!-- --------------------------------------SEARCH BAR--------------------------------- -->
+        <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Search messages" id="message-search">
+        </div>
+        <!-- ----------------------------------------------MESSAGES CATEGORY----------------------------- -->
+        <div class="category">
+            <h6 class="active">Primary</h6>
+            <h6 >General</h6>
+            <h6 class="message-resquests">Requests(7)</h6>
+        </div>
+        <!-- -----------------------------------Message------------------------------- -->
+        <div class="message">
+            <div class="profile-photo">
+                <img src="./images/profile-17.jpg">
+                <div class="active"></div>
+            </div>
+            <div class="message-body">
+                <h5>Emy dany</h5>
+                <p class="text-muted"> just woke up bruh</p>
+            </div>
+        </div>
+            <div class="message">
+                <div class="profile-photo">
+                    <img src="./images/profile-5.jpg">
+                </div>
+                <div class="message-body">
+                    <h5>Lionel Ali</h5>
+                    <p class="text-bold"> 2 new messages</p>
+                </div>
+            </div>
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-6.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5>Sandra Grace</h5>
+                        <p class="text-muted"> lol u right</p>
+                    </div>
+                </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-7.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Emy dany</h5>
+                            <p class="text-muted"> Birthday Tomorrow!</p>
+                        </div>
+                    </div>
+                        <div class="message">
+                            <div class="profile-photo">
+                                <img src="./images/profile-4.jpg">
+                            </div>
+                            <div class="message-body">
+                                <h5>Daniella Jackson</h5>
+                                <p class="text-muted"> ok</p>
+                            </div>
+                        </div>
+                            <div class="message">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-5.jpg">
+                                    <div class="active"></div>
+                                </div>
+                                <div class="message-body">
+                                    <h5>Anita Zeu</h5>
+                              <p class="text-muted"> Merci pour tout</p>
+             </div>
+        </div>
+          </div>
+          <!-- ------------------------------------END OF MESSAGES---------------------------- -->
+
+
+          <!-- -----------------------------------------FRIEND REQUESTS------------------------------- -->
+          <div class="friend-requests">
+            <!-- --------------------------RESQUEST1--------------------------------------------------- -->
+            <h4>Resquests</h4>
+            <div class="request">
+                <div class="info">
+                    <div class="profile-photo">
+                        <img src="./images/profile-13.jpg">
+                    </div>
+                <div>
+                <h5>Hajia Bintu</h5>
+                <p class="text-muted">
+                    8 mutual friends
+                </p>
+            </div>
+         </div>
+         <div class="action">
+            <button class="btn btn-primary"> Accepter</button>
+            <button class="btn"> Refuser</button>
+    </div>
+    </div>
+    <div class="request">
+        <div class="info">
+            <div class="profile-photo">
+                <img src="./images/profile-13.jpg">
+            </div>
+        <div>
+        <h5>Aminatou Saoi</h5>
+        <p class="text-muted">
+            56 mutual friends
+        </p>
+    </div>
+ </div>
+ <div class="action">
+    <button class="btn btn-primary"> Accepter</button>
+    <button class="btn"> Refuser</button>
+</div>
+</div>
+<div class="request">
+    <div class="info">
+        <div class="profile-photo">
+            <img src="./images/profile-13.jpg">
+        </div>
+    <div>
+    <h5>Jennifer Lopez</h5>
+    <p class="text-muted">
+        147 mutual friends
+    </p>
+</div>
+</div>
+<div class="action">
+<button class="btn btn-primary"> Accepter</button>
+<button class="btn"> Refuser</button>
+</div>
+</div>
+         </div>
+         <!-- =======================================END OF RIGHT============================================ -->
+        </div>
+            </div>
+        </div>
+   </main>
+
+    <!-- ===================================================THEME CUSTOMIZATION------------------------------------------ -->
+
+    
+</body>
+</html>
